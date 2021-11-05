@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "course",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "target_customer": {
+      "type": "text"
+    },
+    "outcome": {
+      "type": "text"
+    },
+    "fee": {
+      "type": "integer"
+    },
+    "num_of_lessons": {
+      "type": "integer"
+    },
+    "language": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course.overview"
+    },
+    "curriculum": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course.lesson"
+    },
+    "routes": {
+      "collection": "route",
+      "via": "courses",
+      "dominant": true
+    },
+    "pre_req": {
+      "collection": "course",
+      "via": "pre_req_of",
+      "dominant": true
+    },
+    "pre_req_of": {
+      "collection": "course",
+      "via": "pre_req"
+    }
+  }
+}

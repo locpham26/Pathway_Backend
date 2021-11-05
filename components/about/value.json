@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_values",
+  "info": {
+    "name": "value",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

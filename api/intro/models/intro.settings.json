@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "intros",
+  "info": {
+    "name": "intro"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

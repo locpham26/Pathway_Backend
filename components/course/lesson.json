@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_course_lessons",
+  "info": {
+    "name": "lesson",
+    "icon": "book-dead"
+  },
+  "options": {},
+  "attributes": {
+    "index": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

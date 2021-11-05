@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_course_overviews",
+  "info": {
+    "name": "overview",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "purpose": {
+      "type": "text"
+    },
+    "benefit": {
+      "type": "text"
+    }
+  }
+}

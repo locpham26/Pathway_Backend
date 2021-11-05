@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "reasons",
+  "info": {
+    "name": "reason"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "community": {
+      "type": "text"
+    },
+    "knowledge": {
+      "type": "text"
+    },
+    "environment": {
+      "type": "text"
+    }
+  }
+}

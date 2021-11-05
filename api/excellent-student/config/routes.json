@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/excellent-student",
+      "handler": "excellent-student.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/excellent-student",
+      "handler": "excellent-student.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/excellent-student",
+      "handler": "excellent-student.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
