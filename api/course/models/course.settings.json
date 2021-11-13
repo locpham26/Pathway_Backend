@@ -53,8 +53,8 @@
       "component": "course.lesson"
     },
     "routes": {
-      "collection": "route",
       "via": "courses",
+      "collection": "route",
       "dominant": true
     },
     "pre_req": {
